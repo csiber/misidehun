@@ -20,7 +20,7 @@ export default function Home() {
                 Steam link
               </h2>
               <p className="text-gray-600 mb-6">
-                A MISIDE magyar fordítása bekerült a játékba, igy már
+                A MiSide magyar fordítása bekerült a játékba, igy már
                 hivatalosan is eléred Steam-en.
               </p>
               <Button
@@ -65,7 +65,7 @@ export default function Home() {
 
           <div>
             <Card className="p-6 bg-white/80 backdrop-blur border-pink-100">
-              <img src="/public/miside.png" alt="Miside kép" />
+              <img src="/miside.png" alt="Miside kép" />
             </Card>
           </div>
         </div>
