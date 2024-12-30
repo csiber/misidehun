@@ -45,14 +45,18 @@ export default function Home() {
                     Játék bemutatása pár szóban
                   </h3>
                   <p className="text-gray-600 font-mono text-sm">
-                    A "Miside" egy történet, amely könnyed, romantikus és
-                    humoros elemeket ötvöz. A főszereplők között gyakran
-                    testvéri vagy mostohatestvéri kapcsolatok jelennek meg,
-                    miközben az érzelmek és a szórakoztató pillanatok
-                    dominálnak. Az ilyen típusú történetek jellemzője a
-                    karakterek közötti dinamikák, amelyek keverik a komikust és
-                    a mélyebb érzelmi kapcsolatokat, gyakran szórakoztató, de
-                    érzelmileg is gazdag módon.
+                    A **Miside** egy kalandjáték, horror elemekkel, amely egy
+                    egyszerű srác történetét meséli el, aki misztikus okokból
+                    egy mobilos szimulációban találja magát. Miután megjelenik
+                    egy házban, amit épp a telefonján nézett, a főszereplő
+                    zavarodottá válik. Hamarosan rátalál egy különös eszközre a
+                    hálószobában, amely irányítja őt a helyzetben. Ahogy halad
+                    előre ebben a szürreális világban, találkozik egy gyönyörű
+                    lánnyal, akinek az arca szintén ismerős a fiatalember
+                    számára a mobiljátékból, amit korábban játszott. A játék
+                    titokzatos, feszültséggel teli és hátborzongató elemeket
+                    ötvöz, miközben a hős felfedi a szimuláció mögötti titkokat
+                    és a háttérben megbújó sötét erőket.
                   </p>
                 </div>
               </div>
@@ -61,7 +65,7 @@ export default function Home() {
 
           <div>
             <Card className="p-6 bg-white/80 backdrop-blur border-pink-100">
-              <img src="miside.png" alt="Miside kép" />
+              <img src="/public/miside.png" alt="Miside kép" />
             </Card>
           </div>
         </div>
