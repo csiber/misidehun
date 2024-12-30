@@ -82,12 +82,12 @@ export default function Home() {
           {/* Frissítési lista kártya */}
           <div className="lg:col-span-2">
             <Card className="p-12 bg-white/90 backdrop-blur-lg border-pink-200 shadow-lg hover:shadow-xl transition-all">
-              <h3 class="text-xl font-semibold text-pink-700 mb-4">
+              <h3 className="text-xl font-semibold text-pink-700 mb-4">
                 Frissítési lista
               </h3>
-              <p class="text-gray-600 font-mono text-sm">
+              <p className="text-gray-600 font-mono text-sm">
                 Nincs változás a cselekményben, megjelenés 2024-ben várható:
-                <ul class="list-disc pl-5 space-y-2">
+                <ul className="list-disc pl-5 space-y-2">
                   <li>1.21 + Japán hang + Különféle javítások</li>
                   <li>Hozzáadott fordítások: vietnami 1.19</li>
                   <li>Karácsony 1.18F + Halloween 1.17F</li>
