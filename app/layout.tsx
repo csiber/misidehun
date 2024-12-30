@@ -1,12 +1,12 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'MISIDE Magyar Fordítás',
-  description: 'MISIDE játék hivatalos magyar fordításának letöltőoldala',
+  title: "MiSide",
+  description: "Varázslatos AI Kalandjáték",
 };
 
 export default function RootLayout({
