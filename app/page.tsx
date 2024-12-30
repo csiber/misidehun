@@ -14,7 +14,7 @@ export default function Home() {
           </h1>
           <p className="text-lg text-gray-600">
             Fedezd fel MiSide varázslatos világát! Egy mágikus kalandjáték tele
-            rejtvényekkel és varázslattal.'
+            rejtvényekkel és varázslattal.
           </p>
         </div>
 
@@ -25,7 +25,7 @@ export default function Home() {
                 Steam link
               </h2>
               <p className="text-gray-600 mb-6">
-                A MiSide magyar fordítása bekerült a játékba, igy már
+                A MiSide magyar fordítása bekerült a játékba, így már
                 hivatalosan is eléred Steam-en.
               </p>
               <Button
@@ -50,7 +50,7 @@ export default function Home() {
                     Játék bemutatása pár szóban
                   </h3>
                   <p className="text-gray-600 font-mono text-sm">
-                    A **Miside** egy kalandjáték, horror elemekkel, amely egy
+                    A **MiSide** egy kalandjáték, horror elemekkel, amely egy
                     egyszerű srác történetét meséli el, aki misztikus okokból
                     egy mobilos szimulációban találja magát. Miután megjelenik
                     egy házban, amit épp a telefonján nézett, a főszereplő
@@ -71,17 +71,18 @@ export default function Home() {
           <div>
             <Card className="p-6 bg-white/80 backdrop-blur border-pink-100">
               <iframe
-                width="560"
+                width="100%"
                 height="315"
                 src="https://www.youtube.com/embed/JxeST9Bv4W0?si=kKwBTmy6YzHXKEei"
                 title="YouTube video player"
-                frameBorder="0" // A frameborder helyett a frameBorder
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin" // A referrerpolicy helyett referrerPolicy
-                allowFullScreen // A allowfullscreen helyett allowFullScreen
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
               ></iframe>
             </Card>
           </div>
+        </div>
 
         <footer className="text-center mt-16 text-gray-500">
           <p>
