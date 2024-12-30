@@ -75,10 +75,10 @@ export default function Home() {
                 height="315"
                 src="https://www.youtube.com/embed/JxeST9Bv4W0?si=kKwBTmy6YzHXKEei"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0" // A frameborder helyett a frameBorder
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
+                referrerPolicy="strict-origin-when-cross-origin" // A referrerpolicy helyett referrerPolicy
+                allowFullScreen // A allowfullscreen helyett allowFullScreen
               ></iframe>
             </Card>
           </div>
