@@ -9,8 +9,13 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-pink-50 to-purple-50">
       <div className="max-w-4xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-pink-800 mb-4">MiSide</h1>
-          <p className="text-lg text-gray-600">Népszerűsitő oldal</p>
+          <h1 className="text-4xl font-bold text-pink-800 mb-4">
+            MiSide - Varázslatos Kalandjáték
+          </h1>
+          <p className="text-lg text-gray-600">
+            Fedezd fel MiSide varázslatos világát! Egy mágikus kalandjáték tele
+            rejtvényekkel és varázslattal.'
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -65,7 +70,10 @@ export default function Home() {
 
           <div>
             <Card className="p-6 bg-white/80 backdrop-blur border-pink-100">
-              <img src="/miside.png" alt="Miside kép" />
+              <img
+                src="https://img.itch.zone/aW1nLzEyNjM4MDkxLnBuZw==/original/FUX5gl.png"
+                alt="Miside kép"
+              />
             </Card>
           </div>
         </div>
