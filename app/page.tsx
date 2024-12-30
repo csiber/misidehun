@@ -7,26 +7,25 @@ import { Card } from "@/components/ui/card";
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-pink-50 to-purple-50">
-      <div className="max-w-5xl mx-auto px-4 py-16">
-        <header className="text-center mb-16">
-          <h1 className="text-4xl font-extrabold text-pink-800 mb-4">
+      <div className="max-w-4xl mx-auto px-4 py-16">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-pink-800 mb-4">
             MiSide - Varázslatos Kalandjáték
           </h1>
           <p className="text-lg text-gray-600">
             Fedezd fel MiSide varázslatos világát! Egy mágikus kalandjáték tele
-            rejtvényekkel és varázslattal.
+            rejtvényekkel és varázslattal.'
           </p>
-        </header>
+        </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-          {/* Steam link kártya */}
-          <div>
-            <Card className="p-6 bg-white/90 backdrop-blur-lg border-pink-200 shadow-lg hover:shadow-xl transition-all">
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="space-y-6">
+            <Card className="p-6 bg-white/80 backdrop-blur border-pink-100">
               <h2 className="text-2xl font-semibold text-pink-700 mb-4">
                 Steam link
               </h2>
               <p className="text-gray-600 mb-6">
-                A MiSide magyar fordítása bekerült a játékba, így már
+                A MiSide magyar fordítása bekerült a játékba, igy már
                 hivatalosan is eléred Steam-en.
               </p>
               <Button
@@ -42,11 +41,8 @@ export default function Home() {
                 Ugrás a Steam oldalra!
               </Button>
             </Card>
-          </div>
 
-          {/* Játék bemutatása kártya */}
-          <div>
-            <Card className="p-6 bg-white/90 backdrop-blur-lg border-pink-200 shadow-lg hover:shadow-xl transition-all">
+            <Card className="p-6 bg-white/80 backdrop-blur border-pink-100">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-pink-600 mt-1" />
                 <div>
@@ -56,25 +52,33 @@ export default function Home() {
                   <p className="text-gray-600 font-mono text-sm">
                     A **Miside** egy kalandjáték, horror elemekkel, amely egy
                     egyszerű srác történetét meséli el, aki misztikus okokból
-                    egy mobilos szimulációban találja magát...
+                    egy mobilos szimulációban találja magát. Miután megjelenik
+                    egy házban, amit épp a telefonján nézett, a főszereplő
+                    zavarodottá válik. Hamarosan rátalál egy különös eszközre a
+                    hálószobában, amely irányítja őt a helyzetben. Ahogy halad
+                    előre ebben a szürreális világban, találkozik egy gyönyörű
+                    lánnyal, akinek az arca szintén ismerős a fiatalember
+                    számára a mobiljátékból, amit korábban játszott. A játék
+                    titokzatos, feszültséggel teli és hátborzongató elemeket
+                    ötvöz, miközben a hős felfedi a szimuláció mögötti titkokat
+                    és a háttérben megbújó sötét erőket.
                   </p>
                 </div>
               </div>
             </Card>
           </div>
 
-          {/* Videó kártya */}
           <div>
-            <Card className="p-12 bg-white/90 backdrop-blur-lg border-pink-200 shadow-lg hover:shadow-xl transition-all">
+            <Card className="p-6 bg-white/80 backdrop-blur border-pink-100">
               <iframe
-                width="100%"
+                width="560"
                 height="315"
                 src="https://www.youtube.com/embed/JxeST9Bv4W0?si=kKwBTmy6YzHXKEei"
                 title="YouTube video player"
-                frameBorder="0"
+                frameBorder="0" // A frameborder helyett a frameBorder
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
+                referrerPolicy="strict-origin-when-cross-origin" // A referrerpolicy helyett referrerPolicy
+                allowFullScreen // A allowfullscreen helyett allowFullScreen
               ></iframe>
             </Card>
           </div>
