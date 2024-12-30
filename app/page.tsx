@@ -74,6 +74,36 @@ export default function Home() {
                 src="https://img.itch.zone/aW1nLzEyNjM4MDkxLnBuZw==/original/FUX5gl.png"
                 alt="Miside kép"
               />
+              <img
+                src="https://img.itch.zone/aW1nLzEyNjM5ODc4LnBuZw==/original/v8zsxu.png"
+                alt="Miside kép"
+              />
+            </Card>
+          </div>
+
+          <div>
+            <Card className="p-6 bg-white/80 backdrop-blur border-pink-100">
+              <p className="text-gray-600 font-mono text-sm">
+                Frissítési lista: Nincs változás a cselekményben, megjelenés
+                2024-ben várható 1.21 + Japán hang + Különféle javítások +
+                Hozzáadott fordítások: vietnami 1.19 + Karácsony 1,18F +
+                Halloween 1.17F + Automatikus nyelvérzékelés a rendszerről +
+                Változtassa meg Mita ruházati funkcióját + Képes beszúrni Mitát
+                a menübe + Különféle javítások (térd IK, Tamagotchi képernyő,
+                szöveg, párbeszédpanel) 1.15 + Direct3D 10/9 támogatás +
+                Hangszínjátszás támogatása (most már csak az orosz nyelv került
+                hozzáadásra) + Alternatív nyelvnevek + A fényerőt nem
+                tartalmazza a színes grafika + Beállítások - vizuális tippek +
+                Felirat módok és javítások + "Tab" gomb mutatja az aktuális
+                feladatot + Sárgarépa egyszerűsített szeletelése + Lépések
+                hangok a test elforgatásakor (Mita) + Értékek a beállításokban +
+                Néhány fejlesztés és optimalizálás + A játékos kézzel nyomja az
+                ajtókat + Változások: A játékos megjelenése, néhány textúra +
+                Mita tippje (az asztalhoz ülést javasol) + Hozzáadott
+                fordítások: Deutsch / Holland / Español - Latinoamérica /
+                Français / Indonéz / Olasz / Japán / Koreai / Magyar / Lengyel /
+                Português - Brasil / Román / Török / Ukrán
+              </p>
             </Card>
           </div>
         </div>
