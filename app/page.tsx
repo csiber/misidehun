@@ -65,7 +65,7 @@ export default function Home() {
 
           {/* Videó kártya */}
           <div>
-            <Card className="p-6 bg-white/90 backdrop-blur-lg border-pink-200 shadow-lg hover:shadow-xl transition-all">
+            <Card className="p-12 bg-white/90 backdrop-blur-lg border-pink-200 shadow-lg hover:shadow-xl transition-all">
               <iframe
                 width="100%"
                 height="315"
@@ -78,54 +78,6 @@ export default function Home() {
               ></iframe>
             </Card>
           </div>
-
-          {/* Frissítési lista kártya */}
-          <div className="lg:col-span-2">
-            <Card className="p-12 bg-white/90 backdrop-blur-lg border-pink-200 shadow-lg hover:shadow-xl transition-all">
-              <h3 className="text-xl font-semibold text-pink-700 mb-4">
-                Frissítési lista
-              </h3>
-              <p className="text-gray-600 font-mono text-sm">
-                Nincs változás a cselekményben, megjelenés 2024-ben várható:
-                <ul className="list-disc pl-5 space-y-2">
-                  <li>1.21 + Japán hang + Különféle javítások</li>
-                  <li>Hozzáadott fordítások: vietnami 1.19</li>
-                  <li>Karácsony 1.18F + Halloween 1.17F</li>
-                  <li>Automatikus nyelvérzékelés a rendszerről</li>
-                  <li>Változtassa meg Mita ruházati funkcióját</li>
-                  <li>Képes beszúrni Mitát a menübe</li>
-                  <li>
-                    Különféle javítások (térd IK, Tamagotchi képernyő, szöveg,
-                    párbeszédpanel) 1.15
-                  </li>
-                  <li>Direct3D 10/9 támogatás</li>
-                  <li>
-                    Hangszínjátszás támogatása (most már csak az orosz nyelv
-                    került hozzáadásra)
-                  </li>
-                  <li>Alternatív nyelvnevek</li>
-                  <li>A fényerőt nem tartalmazza a színes grafika</li>
-                  <li>Beállítások - vizuális tippek</li>
-                  <li>Felirat módok és javítások</li>
-                  <li>"Tab" gomb mutatja az aktuális feladatot</li>
-                  <li>Sárgarépa egyszerűsített szeletelése</li>
-                  <li>Lépések hangok a test elforgatásakor (Mita)</li>
-                  <li>Értékek a beállításokban</li>
-                  <li>Néhány fejlesztés és optimalizálás</li>
-                  <li>A játékos kézzel nyomja az ajtókat</li>
-                  <li>Változások: A játékos megjelenése, néhány textúra</li>
-                  <li>Mita tippje (az asztalhoz ülést javasol)</li>
-                  <li>
-                    Hozzáadott fordítások: Deutsch / Holland / Español -
-                    Latinoamérica / Français / Indonéz / Olasz / Japán / Koreai
-                    / Magyar / Lengyel / Português - Brasil / Román / Török /
-                    Ukrán
-                  </li>
-                </ul>
-              </p>
-            </Card>
-          </div>
-        </div>
 
         <footer className="text-center mt-16 text-gray-500">
           <p>
