@@ -70,19 +70,21 @@ export default function Home() {
 
           <div>
             <Card className="p-6 bg-white/80 backdrop-blur border-pink-100">
-              <img
-                src="https://img.itch.zone/aW1nLzEyNjM4MDkxLnBuZw==/original/FUX5gl.png"
-                alt="Miside kép"
-              />
-              <img
-                src="https://img.itch.zone/aW1nLzEyNjM5ODc4LnBuZw==/original/v8zsxu.png"
-                alt="Miside kép"
-              />
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/JxeST9Bv4W0?si=kKwBTmy6YzHXKEei"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </Card>
           </div>
 
           <div>
-            <Card className="p-6 bg-white/80 backdrop-blur border-pink-100">
+            <Card className="p-12 bg-white/80 backdrop-blur border-pink-100">
               <p className="text-gray-600 font-mono text-sm">
                 Frissítési lista: Nincs változás a cselekményben, megjelenés
                 2024-ben várható 1.21 + Japán hang + Különféle javítások +
